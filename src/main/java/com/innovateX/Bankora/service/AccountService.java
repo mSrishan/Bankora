@@ -6,4 +6,6 @@ import com.innovateX.Bankora.dto.AccountDto;
 public interface AccountService {
 
     AccountDto accountCreate(AccountDto accountDto);
+    AccountDto getAccountById(Long id);
+
 }
